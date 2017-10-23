@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/faceopt" android:state_pressed="true"></item> //estos es lo que le vas a pegar y vas agregar la imagen
+    <item android:drawable="@drawable/face" android:state_pressed="false"></item>
+
+
+</selector>

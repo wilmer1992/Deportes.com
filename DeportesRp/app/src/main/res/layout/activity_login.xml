@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.claudia.deportesrp.Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_gravity="center"
+        android:src="@drawable/deportesss" />
+
+    <EditText
+        android:id="@+id/TV_usu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese nombre usuario"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/TV_pas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        />
+
+    <ImageButton
+        android:id="@+id/Btn_iniciar"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btnentrar"
+         />
+
+    <ImageButton
+        android:id="@+id/Btn_recuperar"
+        android:layout_width="186dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/olvidocu" />
+
+    <ImageButton
+        android:id="@+id/tv_registrarf"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btnface"
+        android:layout_margin="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/tv_registrar"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btncrearcuent"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>

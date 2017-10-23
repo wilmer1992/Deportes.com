@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:paddingBottom="16dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.claudia.deportesrp.Lista_Usuarios">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        style="@style/Base.DialogWindowTitle.AppCompat"
+        android:layout_gravity="center"
+        android:text="Lista de usuarios"
+        android:background="#abcffd"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/Bbuscar"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:layout_editor_absoluteX="57dp" />
+
+        <EditText
+        android:id="@+id/Ebuscar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintbuscar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+            tools:layout_editor_absoluteY="45dp"
+            tools:layout_editor_absoluteX="-2dp" />
+
+
+    <ImageView
+    android:id="@+id/imageView"
+    android:layout_width="327dp"
+    android:layout_height="50dp"
+    android:layout_alignBottom="@+id/lista"
+    android:layout_alignEnd="@+id/BActualizar"
+    android:layout_below="@+id/BEliminar"
+    app:srcCompat="@drawable/usuariosss"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Base.DialogWindowTitle.AppCompat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/apellido"
+        android:background="#abcffd"
+        android:text="Nombres     Apellidos"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:background="#abcffd"
+        android:nextFocusUp="@color/colorAccent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="130dp">
+
+
+    </ListView>
+
+</LinearLayout>
+
+
+
+
+
